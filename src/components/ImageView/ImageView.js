@@ -18,7 +18,7 @@ const ImageView = (props) => {
             </div>
             <div className="imageView__text">
               <h4>Credit: <span>{owner}</span></h4>
-              <h4>Download: <span><a target="_blank" href={pageURL }>{ pageURL.substring(0, 10) }...[VIEW FULL LINK]</a></span></h4>
+              <h4>Download: <span><a target="_blank" href={pageURL } rel="noopener noreferrer">{ pageURL.substring(0, 10) }...[VIEW FULL LINK]</a></span></h4>
               <button className="active-recipe__button">
                 <Link to="/">Home</Link>
               </button>
